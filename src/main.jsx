@@ -1,19 +1,30 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import App from './App';
 import Home from './pages/Home';
-import About from './pages/About';
-import Projects from './pages/Projects';
+import Apropos from './pages/About.jsx'
+import Projects from './pages/Projects.jsx'
+import './index.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root')); // Criamos um elemento raiz para renderizar o componente
-root.render( // Renderizamos o componente principal da aplicação
+
+const router = createBrowserRouter([
+  {
+    path:'/',
+    element: <App/>,
+    children:[
+      {path:'/', element: <Home/>},
+      {path:'Apropos', element: <Apropos/>},
+      {path:'Projects', element: <Projects/>}
+    ]
+  }
+]);
+
+
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode>
-); 
+    <RouterProvider router={router}/>
+  </React.StrictMode>,
+);

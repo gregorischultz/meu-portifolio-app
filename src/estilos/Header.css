@@ -1,0 +1,69 @@
+/* Estilizando a barra de navegação */
+.header {
+  position: fixed; /* fixa o header no topo da página */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1; /* garante que o header fique acima de outros elementos */
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 70px;
+  padding-left: 60px;
+  
+}
+
+.listNavBAr {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap:55px
+}
+
+.navItem {
+  margin-right: 20px;
+}
+
+.navItem a {
+  color: #1e8daa;
+  text-decoration: none;
+}
+
+.navItem a:hover {
+  color: #186174;
+}
+
+/* Adicionando estilo para o menu hamburguer */
+.menu-toggle {
+  display: none; /* escondendo o botão do menu hamburguer em telas grandes */
+}
+
+/* Consulta de mídia para dispositivos móveis */
+@media (max-width: 768px) {
+  .listNavBAr {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navItem {
+    margin-right: 0;
+  }
+  .navItem a {
+    padding: 1em;
+  }
+  .menu-toggle {
+    display: block; /* exibindo o botão do menu hamburguer em telas pequenas */
+    
+  }
+  .menu-toggle:hover {
+    background-color: #444;
+  }
+}
