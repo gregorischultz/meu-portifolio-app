@@ -42,10 +42,6 @@
   color: #186174;
 }
 
-/* Adicionando estilo para o menu hamburguer */
-.menu-toggle {
-  display: none; /* escondendo o botão do menu hamburguer em telas grandes */
-}
 
 /* Consulta de mídia para dispositivos móveis */
 @media (max-width: 768px) {
