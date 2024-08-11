@@ -16,9 +16,7 @@ const Home = () => {
               <p className="home-subtitle-1">Développeur Web</p><span>|</span>
               <p className="home-subtitle-2">Étudiant Concepteur Développeur d’Application</p>
             </div>
-          </section>
-
-        </div>
+          </section> </div>
       </div></>
     )
   };

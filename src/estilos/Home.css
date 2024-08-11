@@ -1,33 +1,38 @@
 .all-home {
-    background-size: cover;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 70px;
+    padding-right:200px;
   }
   
   .home {
     display: flex;
   flex-direction: row;
   align-items: flex-start; /* alinha o conteúdo à esquerda */
-  width: 100%; /* define a largura como 100% */
+  height: 30vh; /* define a largura como 100% */
   }
   
   .home-section {
     animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideEffect 3s ease both;
   color: #a6d7e4; /* cor verde escolhida */
   font-family: 'Raleway', sans-serif;
-  margin-right: 1000px;
+  margin-right: 10000px;
+  margin-left: 60x;
+  margin-top: -150px;
+  margin-right: ;
   
   
   }
   
   .home-name {
     font-size: 8rem;
-    letter-spacing: 0.9rem;
+    letter-spacing: 0.9rem; /* o espaço entre as letras de gregori e schultz*/
     font-weight: 600;
-    height: min-content;
-    margin-bottom: -4px;
-    padding-left: -60px;
+   display: flex;
+   justify-content: flex-start;
+   margin: 0px 0px 0px 0px;
+  
     
   }
   
@@ -39,7 +44,8 @@
     flex-direction: row;
     align-items: center;
     font-size: 1rem;
-    margin-top: 1%;
+    margin: 0px 70px 4px 4px;
+    padding-top: ;
   }
   
   .home-subtitle p {
