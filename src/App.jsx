@@ -1,15 +1,25 @@
 // App.js
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import Navbar from './componentes/NavBar.jsx';
+import '../src/estilos/global.css';
+import '../src/App.css';
 
-const App = () => {
+function App() {
+
   return (
-    <div>
-      <Navbar />
-      
-    </div>
+    <>
+      <div>
+        <Navbar/>
+        <main>
+          <Outlet/>
+        </main>
+        
+        
+      </div>
+    </>
   );
-};
+}
 
-export default App;
+export default App
