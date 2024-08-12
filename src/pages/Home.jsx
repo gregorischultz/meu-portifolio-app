@@ -2,6 +2,8 @@
 import React from "react";
 import Header from "../componentes/Header"; 
 import '../estilos/Home.css';
+import '../componentes/Footer.jsx';
+import Footer from "../componentes/Footer.jsx";
 
 const Home = () => {
     
@@ -15,8 +17,11 @@ const Home = () => {
               <p className="home-subtitle-1">Développeur Web</p><span>|</span>
               <p className="home-subtitle-2">Étudiant Concepteur Développeur d’Application</p>
             </div>
-          </section> </div>
-      </div></>
+          </section> 
+         </div>
+      </div>
+      <Footer/>
+      </>
     )
   };
     export default Home;
