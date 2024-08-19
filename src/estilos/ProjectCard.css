@@ -1,0 +1,160 @@
+/* Container que envolve os cartões */
+.project-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 70px;
+    }
+  
+  .project-card {
+    border: 1px solid #1e8daa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-basis: 250px;
+    margin: 25px;
+    width: 400px;
+    height: auto; /* Ajusta a altura para se ajustar ao conteúdo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .project-card img {
+    width: 100%; /* define a largura da imagem como 100% do pai */
+    height: auto; /* define a altura da imagem como 50% da carta */
+    object-fit: cover; /* faz com que a imagem seja cortada para se encaixar no espaço */
+    border-radius: 10px 10px 10px 10px; 
+    
+  }
+  h3{
+    color:#fff
+  }
+
+  .project-card .project-info {
+    text-align: center;
+  }
+
+  .popup {
+    position: fixed; /* posiciona o popup absolutamente */
+    top: 0; /* topo do popup */
+    left: 0; /* esquerda do popup */
+    width: 100%; /* largura do popup */
+    height: 100%; /* altura do popup */
+    background-color: rgba(0, 0, 0, 0.7); /* adiciona um fundo branco ao popup */
+    padding: 20px; /* adiciona um espaçamento interno ao popup */
+    border-radius: 10px; /* adiciona um cantinho arredondado ao popup */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* adiciona uma sombra ao popup */
+    z-index: 1; /* z-index para que o popup fique em frente ao conteúdo */
+    backdrop-filter: blur(5px);
+  }
+
+  .popup video {
+    width: 80%; /* define a largura do vídeo como 80% do pai */
+    height: 60vh; /* define a altura do vídeo como 60% da altura da tela */
+    object-fit: contain; /* faz com que o vídeo seja redimensionado para se encaixar no espaço */
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+
+  .popup-text-video-container {
+    max-width: 800px; /* define a largura máxima do container do popup */
+    margin: 40px auto; /* centraliza o container do popup horizontalmente */
+  }
+
+.popup-div-close{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.popup-Close{
+  color: white;
+  background-color: gray;
+  width: 50px;
+  height: 50px;
+  border-radius:50px 50px 50px 50px;
+}
+
+.popup-informative-text{
+  /* white-space: wrap; */
+  width: 80%;
+  text-align: start;
+  margin-top: 50px;
+  margin-left: 41px;
+}
+
+.popup-informative-text h2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 85px;
+  margin-top: -20px;
+  color: #1e8daa;
+}
+
+.popup-informative-text h3 {
+  font-style: italic; /* deixa a letra em itálico */
+  color: #1e8daa;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 85px;
+}
+
+.popup-informative-text h4 {
+  font-style: italic; /* deixa a letra em itálico */
+  font-weight: 300; /* deixa a letra mais fina */
+  color: #1e8daa;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 85px;
+}
+
+.popup-informative-text p {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 85px;
+  color: #1e8daa;
+}
+
+  .project-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  
+  .project-buttons button, 
+  .project-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e8daa;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+  }
+  
+  .project-buttons button:hover {
+    background-color: #155d73; /* adiciona fundo cinza claro ao passar o mouse */
+    color :#213547
+  }
+
+  .project-buttons a:hover {
+    background-color: #155d73; /* adiciona fundo cinza claro ao passar o mouse */
+  }
+
+  .github-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .github-icon i {
+    margin-left: 8px;
+  }

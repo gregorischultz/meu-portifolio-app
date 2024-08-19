@@ -1,13 +1,16 @@
 // src/pages/Projects.jsx
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import Header from '../componentes/Header';
+import SocialMedia from '../componentes/SocialMedia';
+import ProjectLIst from "../componentes/ProjectList";
 
 const Projects = () => {
   return (
     <div>
       <Header/>
-      <h1>Projects Page</h1>
-      <p>This is a list of my projects.</p>
+      <SocialMedia /> 
+      <ProjectLIst />
     </div>
   );
 };

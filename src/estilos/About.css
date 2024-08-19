@@ -29,7 +29,9 @@ span {
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
-    margin-top: 30px
+    margin-top: 30px;
+    margin-left: 15px;
+    
   }
   /* aqui termina o css da parte de cima (o texto) */
   
@@ -50,6 +52,8 @@ span {
       font-weight: 700;
       /* padding-bottom: 5%; */
      text-align: center;
+     margin-left: 25px;
+     color: #61b4c9;
      
     }
     
