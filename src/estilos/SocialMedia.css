@@ -1,0 +1,92 @@
+.social-media {
+    animation: opacityEffect 2.5s cubic-bezier(0.45, 0.05, 0.55, 0.95) forwards, slideUpEffect 2.5s ease-out forwards;
+    background-color: #1e8daa; /* cor verde escolhida */
+    border-radius: 1.5rem 0 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2%.7%;
+    transition: all.2s;
+  
+    position: fixed;
+    top: 34%;
+    right: 0%;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+   .social-media {
+      padding: 1%.8%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+   .social-media {
+      padding: 1%.6%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+   .social-media {
+      border-radius: 1.5rem 1.5rem 0 0;
+      padding:.8% 6%;
+      width: 70%;
+  
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-bottom: 0;
+      position: fixed;
+      bottom: 0;
+      right: auto;
+      top: auto;
+    }
+  }
+  
+  .social-media a {
+    font-size: 2.1rem;
+    text-decoration: none;
+    padding: 1rem;
+    color: #124552; /* cor escura escolhida */
+    transition: all.3s;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+   .social-media a {
+      font-size: 2.3rem;
+      padding: 1.5rem 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+   .social-media a {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+   .social-media a {
+      font-size: 1.8rem;
+      padding: 1rem 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+   .social-media a {
+      font-size: 1.5rem;
+      padding:.8rem 1.7rem;
+    }
+  }
+  
+  .social-media a:hover {
+    color: black; /* cor branca escolhida */
+  }
+  
+  .mail-icon {
+    display: none;
+    visibility: hidden;
+  }
+  
+  @media only screen and (max-width: 480px) {
+   .mail-icon {
+      display: block;
+      visibility: visible;
+    }
+  }

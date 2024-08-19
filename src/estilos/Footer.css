@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  /* background-color: #f8f9fa; */
+}
+
+.footer-text {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  color: #1e8daa;
+  font-weight: bold;
+}
+
+.iconemail{
+  color: #1e8daa;
+}
