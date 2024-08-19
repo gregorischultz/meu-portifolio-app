@@ -1,5 +1,8 @@
 body {
-    background-image: url('src/assets/portifolioimg.jpg');
-    background-size: cover;
-    background-position: center;
-  }
+  background-image: url('../assets/portifolioimg.jpg');
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  margin: 0;
+  width: 100%;
+}

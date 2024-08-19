@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../componentes/Header"; 
 import '../estilos/Home.css';
 import '../componentes/Footer.jsx';
-import Footer from "../componentes/Footer.jsx";
+
 
 const Home = () => {
     
@@ -20,7 +20,7 @@ const Home = () => {
           </section> 
          </div>
       </div>
-      <Footer/>
+      
       </>
     )
   };

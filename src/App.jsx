@@ -5,6 +5,7 @@ import { Outlet } from 'react-router-dom';
 // import Header from './componentes/Header.jsx';
 import '../src/estilos/global.css';
 import '../src/App.css';
+import Footer from './componentes/Footer';
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
           <Outlet/>
         </main>
         
-        
+        <Footer/>
       </div>
     </>
   );

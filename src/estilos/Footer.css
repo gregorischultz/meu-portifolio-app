@@ -1,24 +1,17 @@
 .footer {
-    display: flex;
+  display: flex;
   align-items: center;
-  justify-content: flex-start;
-  padding: 0; /* Remove qualquer preenchimento */
-  margin: 50px 0px 0px -275px;  /* Remove qualquer margem */
-   
-  }
-  
-  .footer-text {
-    margin-left: 0.5rem;
-    font-size: 1rem;
-    color: #1e8daa;
-    font-weight: bold;
-  }
+  justify-content: left;
+  /* background-color: #f8f9fa; */
+}
 
-  .iconemail{
-    background-color: #1e8daa;
-    color: black;
-    width: 24px;  /* Ajuste a largura conforme necessário */
-    height: 19px; /* Ajuste a altura conforme necessário */
-    
-    object-fit: cover; /* ou cover */
-  }
+.footer-text {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  color: #1e8daa;
+  font-weight: bold;
+}
+
+.iconemail{
+  color: #1e8daa;
+}
