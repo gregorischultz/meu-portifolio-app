@@ -1,0 +1,102 @@
+span {
+    color:  #1e8daa;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    font-weight: bold;
+  }
+  
+  p{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .P{
+    margin-left: 0.6em;
+    text-align: start;
+    }
+  
+  .P0{
+    margin-left: 0.6em;
+  }
+  
+  .P1{
+    margin-left: 0.2em;
+  }
+  
+  
+  .about-text{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    margin-top: 30px
+  }
+  /* aqui termina o css da parte de cima (o texto) */
+  
+  
+  
+  
+    .about-skills {
+      color: #ffffff;
+      border-top: 2px solid  #1e8daa;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      
+    }
+    
+    .about-skills-p {
+      font-size: 1.7rem;
+      font-weight: 700;
+      /* padding-bottom: 5%; */
+     text-align: center;
+     
+    }
+    
+    .about-skill {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+  
+    .about-div-icon {
+      margin: 20px;
+    }
+    
+   
+    
+    .about-div-icon:hover {
+      color: #1e8daa;
+      transform: translateY(-3px);
+    }
+    
+    .about-icon {
+      font-size: 3.2rem;
+      transition: all 0.3s;
+      
+    }
+  
+  
+    
+    /* .about-icon-text {
+      font-size: 1.4rem;
+      font-weight: 400;
+      margin-top: 10%;
+      transition: all 0.3s;
+    } */
+    
+    /* .about-image {
+      width: 60%;
+    }
+    
+    .about-img {
+      position: fixed;
+      overflow: hidden;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 40%;
+      object-fit: cover;
+      object-position: 50% 30%;
+    } */
