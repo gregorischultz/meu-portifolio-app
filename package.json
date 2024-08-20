@@ -8,7 +8,6 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "preinstall": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@iconify/icons-ic": "^1.2.13",
