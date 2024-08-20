@@ -2,7 +2,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import Header from '../componentes/Header';
-import hardSkillsIcons from "../data/hardSkillsIcons.js";
+import hardSkillsIcons from "../Data/hardSkillsIcons.js";
 import SocialMedia from '../componentes/SocialMedia';
 import { Icon } from '@iconify/react';
 import '../estilos/About.css';
