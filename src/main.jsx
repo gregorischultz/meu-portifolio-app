@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import Home from './pages/Home.jsx';
@@ -23,8 +23,10 @@ const router = createBrowserRouter([
 
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+// eslint-disable-next-line react/no-deprecated
+ReactDOM.render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   </React.StrictMode>,
+  document.getElementById('root') // O segundo argumento define o container DOM onde o React vai renderizar
 );
