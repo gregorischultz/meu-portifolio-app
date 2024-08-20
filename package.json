@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build"
-
   },
   "dependencies": {
     "@iconify/icons-ic": "^1.2.13",
