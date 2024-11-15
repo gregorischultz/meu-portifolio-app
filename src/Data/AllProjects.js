@@ -3,6 +3,7 @@ import gengo from '../assets/gengoimg.png';
 import guild from '../assets/guildimg.png';
 import future from '../assets/Logofuture.png';
 import cpf from '../assets/Logo CPF.png';
+import pizz from '../assets/LOGO.png';
 
 
 
@@ -49,6 +50,16 @@ const allProjects = [
         linkVideo: 'vx7XF3VyWRQ',
         tecnologias:'React, CSS3, HTML5, JavaScript' ,
         descriçao:'Hackathon - Une météorite s’est abatu sur la Terre. Heureusement que Futur Corp avait tout prévu et a crée un guide se survie sous la forme d’une application mobile.' ,
+    },
+    {
+        id: 5,
+        name: "Diony's Pizz",
+        moduleCurso: 'Front-end',
+        img: pizz,
+        linkGitHub: 'https://github.com/gregorischultz/dyonis-pizza',
+        linkVideo:'9QUo4YVVQ6E' ,
+        tecnologias: 'React, JavaScript, TailwindCSS, HTML5',
+        descriçao: "Refonte totale du site «One page» de la pizzaria Diony’s Pizz située à Saint Denis en Val. Basé sur les maquettes Figma, le but était de développer la présentation de la pizzaria en créant des pages dédiées au menu (avec tous les produits proposés) et aux services. Lien du ancien site: https://dionys-pizz-saint-denis-en-val.eatbu.com/?lang=fr",
     },
 ];
 

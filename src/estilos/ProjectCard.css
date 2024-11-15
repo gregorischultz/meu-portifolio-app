@@ -2,7 +2,7 @@
 .project-cards {
     display: flex;
     flex-wrap: nowrap;
-    gap: 70px;
+    gap: 40px;
     }
   
   .project-card {
