@@ -39,6 +39,18 @@ const hardSkillsIcons = [
         icon: 'solar:figma-bold',
         title: 'Figma' 
       },
+      {
+        icon: 'simple-icons:tailwindcss', // Ícone do Tailwind CSS
+        title: 'Tailwind CSS',
+      },
+      {
+        icon: 'simple-icons:nextdotjs', // Ícone do Next.js
+        title: 'Next.js',
+      },
+      {
+        icon: 'simple-icons:typescript', // Ícone do TypeScript
+        title: 'TypeScript',
+      },
 ];
 
 export default hardSkillsIcons;

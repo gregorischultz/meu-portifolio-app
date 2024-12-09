@@ -23,7 +23,7 @@ const About = () => {
               
               <p className="P">Je suis à <span>la recherche d'une alternance dans le cadre de la formation Concépteur Développeur d'Applications proposée par la Wild Code School.</span> J'aimerais ensuite gagner de l'expérience entant que développeur Back-end, pour un jour exercer entant que développeur Full-Stack.</p>
                             
-              <p className="P">Je suis <span>développeur Front-ent de formation,</span> je maîtrise particulièrement les languages suivants : <span>JavaScript</span>, <span>ReactJS</span> et <span>HTML/CSS.</span> Je suis également familier avec les outils essentiels : <span>NodeJS, SQL e MySQL, ExpressJS.</span> J'étudie actuellement de manière autodidacte le <span>Python et TypeScript,</span> afin d'enrichir mes connaissances et gagner en compétences.</p>
+              <p className="P">Je suis <span>développeur Front-ent de formation,</span> je maîtrise particulièrement les languages suivants : <span>JavaScript</span>,<span>HTML/CSS (+TailwindCSS)</span> et <span>TypeScript</span>les frameworks<span>ReactJS, Next.js</span>. Je suis maîtrise également les outils essentiels : <span>NodeJS, SQL e MySQL, ExpressJS.</span> J'étudie actuellement de manière autodidacte le <span>Python ,</span> afin d'enrichir mes connaissances et gagner en compétences.</p>
               
               <p className="P">J'améliore constamment ma capacité à créer des interfaces utilisateur élégantes et fonctionnelles, en utilisant <span>Figma</span> pour la création de wireframes et prototypes. </p>
               
