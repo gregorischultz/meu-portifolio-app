@@ -17,7 +17,7 @@ const Home = () => {
           <p className="home-name-2">SCHULTZ</p>
           <div className="home-subtitle">
             <p className="home-subtitle-1">Développeur Web</p><span>|</span>
-            <p className="home-subtitle-2">Étudiant Concepteur Développeur d’Application</p>
+            <p className="home-subtitle-2">Recherche alternance – CDA (octobre 2026)</p>
           </div>
         </section>
        <SocialMedia/>
