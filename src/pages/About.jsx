@@ -11,45 +11,46 @@ import '../estilos/About.css';
 const About = () => {
   return (
     <div>
-      <Header/>
+      <Header />
       <div className="all-about">
-      
-      <section className="about">
-        <div className="about-header-text-skills" >
-          
-          <div className="about-text-skills">
-          <section className="about-text">
-              <p className="P0">Bonjour, je m'appelle <span> Gregori Schultz.</span> </p>
-              
-              <p className="P">Je suis actuellement à la recherche d'une alternance dans le cadre de la formation Concepteur Développeur d'Applications, dont le début est prévu le 19 octobre, avec la possibilité de commencer en entreprise dès septembre.</p>
-                            
-              <p className="P">Je suis <span>développeur Front-ent de formation,</span> je maîtrise particulièrement les languages suivants : <span>JavaScript</span>,<span>HTML/CSS (+TailwindCSS)</span> et <span>TypeScript</span>les frameworks<span>ReactJS, Next.js</span>. Je suis maîtrise également les outils essentiels : <span>NodeJS, SQL e MySQL, ExpressJS.</span> J'étudie actuellement de manière autodidacte le <span>Python ,</span> afin d'enrichir mes connaissances et gagner en compétences.</p>
-              
-              <p className="P">J'améliore constamment ma capacité à créer des interfaces utilisateur élégantes et fonctionnelles, en utilisant <span>Figma</span> pour la création de wireframes et prototypes. </p>
-              
-              <p className="P">Je suis ouvert aux opportunités de collaboration, aux défis passionnants et aux nouvelles connexions dans l'industrie technologique.</p>
 
-              <p className="P1"><span>N'hésitez pas à me contacter pour en discuter !</span></p>
-            </section>
-            <section className="about-skills">
-              <p className="about-skills-p">SKILLS</p>
-              <div className="about-skill">
-              {hardSkillsIcons.map((icon, index) => (
-                  <div key={index} className="about-div-icon">
-                    <Icon icon={icon.icon} className={icon.className} />
-                  <p className='about-icon-text'>{icon.title}</p>
-                  </div>
-                ))}
-              </div>
-            </section>
+        <section className="about">
+          <div className="about-header-text-skills" >
+
+            <div className="about-text-skills">
+              <section className="about-text">
+                <p className="P0">Bonjour, je m'appelle <span> Gregori Schultz.</span> </p>
+
+                <p className="P">Je suis actuellement à la recherche d'une alternance dans le cadre de la formation Concepteur Développeur d'Applications, dont le début est prévu le 19 octobre, avec la possibilité de commencer en entreprise dès septembre.</p>
+
+                <p className="P">Titulaire du titre professionnel Développeur Web et Web Mobile, j’ai acquis des compétences en développement frontend et backend à travers plusieurs projets concrets.
+                  Je travaille notamment avec : <span>React</span>, <span>Node.js</span>, <span>Express</span> et des bases de données relationnelles comme <span>SQL / MySQL</span>, en mettant en place des opérations CRUD et des applications web dynamiques.</p>
+
+                <p className="P">Curieux et motivé, je suis avant tout animé par l’envie d’apprendre et de progresser. Je suis ouvert à tout type d’environnement me permettant de développer mes compétences et de contribuer à des projets concrets. </p>
+
+                <p className="P">Je continue également à me former de manière autonome afin d’élargir mes connaissances techniques et de gagner en efficacité.</p>
+
+                <p className="P1"><span>N'hésitez pas à me contacter pour échanger !</span></p>
+              </section>
+              <section className="about-skills">
+                <p className="about-skills-p">SKILLS</p>
+                <div className="about-skill">
+                  {hardSkillsIcons.map((icon, index) => (
+                    <div key={index} className="about-div-icon">
+                      <Icon icon={icon.icon} className={icon.className} />
+                      <p className='about-icon-text'>{icon.title}</p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            </div>
+
           </div>
-          
-        </div>
-        <SocialMedia/>
-        
-      </section>
-      
-    </div>
+          <SocialMedia />
+
+        </section>
+
+      </div>
     </div>
   );
 };
