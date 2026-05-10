@@ -21,7 +21,7 @@ const About = () => {
           <section className="about-text">
               <p className="P0">Bonjour, je m'appelle <span> Gregori Schultz.</span> </p>
               
-              <p className="P">Je suis à <span>la recherche d'une alternance dans le cadre de la formation Concépteur Développeur d'Applications proposée par la Wild Code School.</span> J'aimerais ensuite gagner de l'expérience entant que développeur Back-end, pour un jour exercer entant que développeur Full-Stack.</p>
+              <p className="P">Je suis actuellement à la recherche d'une alternance dans le cadre de la formation Concepteur Développeur d'Applications, dont le début est prévu le 19 octobre, avec la possibilité de commencer en entreprise dès septembre.</p>
                             
               <p className="P">Je suis <span>développeur Front-ent de formation,</span> je maîtrise particulièrement les languages suivants : <span>JavaScript</span>,<span>HTML/CSS (+TailwindCSS)</span> et <span>TypeScript</span>les frameworks<span>ReactJS, Next.js</span>. Je suis maîtrise également les outils essentiels : <span>NodeJS, SQL e MySQL, ExpressJS.</span> J'étudie actuellement de manière autodidacte le <span>Python ,</span> afin d'enrichir mes connaissances et gagner en compétences.</p>
               
