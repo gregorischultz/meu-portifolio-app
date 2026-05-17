@@ -1,18 +1,57 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import allProjects, { categories } from "../Data/AllProjects";
 import ProjectCard from "./ProjectCard";
-import allProjects from "../Data/AllProjects";
-import '../estilos/ProjectCard.css';
+import '../estilos/ProjectList.css';
 
+const ProjectList = () => {
+  const [filter, setFilter] = useState("all");
+  const filtered = filter === "all"
+    ? allProjects
+    : allProjects.filter(p => p.category === filter);
 
-const ProjectLIst = () => {
-    return (
-        <div className="project-cards">
-            {allProjects.map((project) => (
-            <ProjectCard key={project.id} project={project}/>
-            ))}
-        </div>
-    );
+  return (
+    <div className="project-list-wrapper">
+      <div className="project-filters">
+        <button
+          className={filter === "all" ? "filter-btn active" : "filter-btn"}
+          onClick={() => setFilter("all")}
+        >
+          Tous
+        </button>
+        {categories.map(cat => (
+          <button
+            key={cat.id}
+            className={filter === cat.id ? "filter-btn active" : "filter-btn"}
+            onClick={() => setFilter(cat.id)}
+          >
+            {cat.label}
+          </button>
+        ))}
+      </div>
+
+      <motion.div className="project-cards" layout>
+        <AnimatePresence mode="popLayout">
+          {filtered.map((project, i) => (
+            <motion.div
+              key={project.id}
+              layout
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9 }}
+              transition={{
+                duration: 0.5,
+                delay: i * 0.08,
+                ease: [0.22, 1, 0.36, 1],
+              }}
+            >
+              <ProjectCard project={project} />
+            </motion.div>
+          ))}
+        </AnimatePresence>
+      </motion.div>
+    </div>
+  );
 };
 
-export default ProjectLIst;
+export default ProjectList;

@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -13,9 +13,44 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.display-font {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h2, h3 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #1e8daa;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e8daa;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2bb5d8;
+}
+
 a {
   font-weight: 500;
-  color:#1e8daa;
+  color: #1e8daa;
   text-decoration: inherit;
 }
 a:hover {
@@ -26,7 +61,6 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  /* flex-direction: column; */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -48,7 +82,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color:black;
+  border-color: black;
 }
 button:focus,
 button:focus-visible {
@@ -61,7 +95,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: rgb(56, 55, 63)
+    color: rgb(56, 55, 63);
   }
   button {
     background-color: #f9f9f9;
