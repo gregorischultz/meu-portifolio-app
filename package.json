@@ -10,7 +10,6 @@
   "dependencies": {
     "@iconify/icons-ic": "^1.2.13",
     "@iconify/react": "^5.0.2",
-    "@material-ui/icons": "^4.11.3",
     "framer-motion": "^11.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
